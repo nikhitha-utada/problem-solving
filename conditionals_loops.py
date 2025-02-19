@@ -26,10 +26,17 @@ else:
 # Write a program to find the greatest of 2 numbers
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
-if(num1>num2 or num1==num2):
+if(num1>num2):
     print(f"{num1} is greatest among {num1} and {num2}")
-else:
+elif(num2>num1):
     print(f"{num2} is greatest among {num1} and {num2}")
+else:
+    print("Both are equal")
 
-
+# print "pass" if a student scores more than 40 marks otherwise print "fail"
+marks = int(input("Enter the marks you scored: "))
+if(marks>40):
+    print("Pass")
+else:
+    print("Fail")
 

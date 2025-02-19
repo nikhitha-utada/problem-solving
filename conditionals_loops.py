@@ -23,3 +23,13 @@ if(age >= 18):
 else:
     print("Sorry you are not eligible to vote")
 
+# Write a program to find the greatest of 2 numbers
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+if(num1>num2 or num1==num2):
+    print(f"{num1} is greatest among {num1} and {num2}")
+else:
+    print(f"{num2} is greatest among {num1} and {num2}")
+
+
+

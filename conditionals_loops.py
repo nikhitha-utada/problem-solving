@@ -16,3 +16,10 @@ if(num%2==0):
 else:
     print(f"{num} is odd")
 
+# Check if a person is eligible to vote
+age = int(input("Enter the age of the person: "))
+if(age >= 18):
+    print("Congratulations!!! You are eligible to vote")
+else:
+    print("Sorry you are not eligible to vote")
+

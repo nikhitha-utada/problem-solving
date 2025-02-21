@@ -74,29 +74,27 @@ match day:
 def calculator():
     print("Simple Calculator")
     print("Operations: +, -, *, /")
-    
-    try:
-        num1 = float(input("Enter first number: "))
-        operator = input("Enter operator (+, -, *, /): ")
-        num2 = float(input("Enter second number: "))
+    num1 = float(input("Enter first number: "))
+    operator = input("Enter operator (+, -, *, /): ")
+    num2 = float(input("Enter second number: "))
         
-        if operator == '+':
+    if operator == '+':
             result = num1 + num2
-        elif operator == '-':
+    elif operator == '-':
             result = num1 - num2
-        elif operator == '*':
+    elif operator == '*':
             result = num1 * num2
-        elif operator == '/':
+    elif operator == '/':
             if num2 != 0:
                 result = num1 / num2
             else:
                 print("Error: Division by zero is not allowed.")
                 return
-        else:
+    else:
             print("Invalid operator! Please use +, -, *, or /.")
             return
         
-        print(f"Result: {result}")
+print(f"Result: {result}")
 calculator()
 
 #Question8

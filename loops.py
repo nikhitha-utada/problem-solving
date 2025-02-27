@@ -64,3 +64,50 @@ num1 = int(input("enter a number: "))
 while(num1>0):
     num1 = int(input("enter the number: "))
 print(num1)
+
+ 
+# Print the first 10 terms of the Fibonacci series using a  for loop.
+ 
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Check if a given number is a prime number using a  for loop. 
+num = int(input("Enter a number: "))
+if(num==1):
+    print("1 is neither prime nor composite")
+else:
+    isprime = True
+    for i in range(2,num):
+        if num%i==0:
+            isprime=False
+            break
+    if isprime:
+        print(f"{num} is prime")
+    else:
+        print(f"{num} is not prime")
+
+# Write a program to calculate the factorial of a number using a  while  loop. 
+
+
+
+
+# Print all numbers from 1 to 100 that are divisible by 3 and 5 using a  for  loop. 
+# Implement a menu-driven program where the user can 
+# choose to: 
+# 1.  Find the square of a number. 
+# 2.  Find the cube of a number. 
+# 3.  Exit. 
+# Implement a basic login system where the user has three attempts to enter the correct password using a loop.

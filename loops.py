@@ -68,20 +68,10 @@ print(num1)
  
 # Print the first 10 terms of the Fibonacci series using a  for loop.
  
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
+a, b = 0, 1  
+for _ in range(10): 
+    print(a, end=" ")
+    a, b = b, a + b    
 
 
 # Check if a given number is a prime number using a  for loop. 

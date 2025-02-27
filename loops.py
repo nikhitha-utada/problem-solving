@@ -112,12 +112,26 @@ for i in range(1,101):
     if i%3==0 and i%5==0:
         print(i)
 
-
-
-
 # Implement a menu-driven program where the user can 
 # choose to: 
 # 1.  Find the square of a number. 
 # 2.  Find the cube of a number. 
 # 3.  Exit. 
+
+print('''choose to: 
+1.  Find the square of a number. 
+2.  Find the cube of a number. 
+3.  Exit.''')
+choice = int(input("enter your choice: "))
+if(choice==1):
+    print("you chose to find the sqaure of a number: ")
+    num = int(input("enter the number: "))
+    print(f"square of {num} is {num*num}")
+elif(choice==2):
+    print("you chose to find the cube of a number: ")
+    num = int(input("enter the number: "))
+    print(f"cube of {num} is {num*num*num}")
+else:
+    print("EXITED SUCCESSFULLY!!!")
+
 # Implement a basic login system where the user has three attempts to enter the correct password using a loop.

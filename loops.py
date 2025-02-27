@@ -106,9 +106,15 @@ for i in range(1,num+1):
     fact*=i
 print(f"factorial of {num} is {fact}")
 
-
-
 # Print all numbers from 1 to 100 that are divisible by 3 and 5 using a  for  loop. 
+
+for i in range(1,101):
+    if i%3==0 and i%5==0:
+        print(i)
+
+
+
+
 # Implement a menu-driven program where the user can 
 # choose to: 
 # 1.  Find the square of a number. 

@@ -26,5 +26,9 @@ while(num<51):
         print(num)
     num+=1 
 
+# problem-04:
+# a program to display the multiplication table of a given number. First 20
 
-
+number = int(input("enter the number: "))
+for i in range(1,21):
+    print(f"{number} x {i} = {number*i}")

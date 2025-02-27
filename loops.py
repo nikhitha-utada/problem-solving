@@ -32,3 +32,19 @@ while(num<51):
 number = int(input("enter the number: "))
 for i in range(1,21):
     print(f"{number} x {i} = {number*i}")
+
+# problem-05:
+# reverse a number using a  while  loop. 
+# 1.  Also can we get the sum of all the digits.
+
+number = int(input("Enter the number: "))
+temp = number
+sum = 0
+rev = 0
+while(number>0):
+    last = number % 10
+    sum+=last
+    rev=rev*10+last
+    number//=10
+print(f"reverse of {temp} is {rev}")
+print(f"sum of digits of {temp} is {sum}")

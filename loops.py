@@ -107,7 +107,6 @@ for i in range(1,num+1):
 print(f"factorial of {num} is {fact}")
 
 # Print all numbers from 1 to 100 that are divisible by 3 and 5 using a  for  loop. 
-
 for i in range(1,101):
     if i%3==0 and i%5==0:
         print(i)
@@ -117,7 +116,6 @@ for i in range(1,101):
 # 1.  Find the square of a number. 
 # 2.  Find the cube of a number. 
 # 3.  Exit. 
-
 print('''choose to: 
 1.  Find the square of a number. 
 2.  Find the cube of a number. 
@@ -134,4 +132,18 @@ elif(choice==2):
 else:
     print("EXITED SUCCESSFULLY!!!")
 
+
 # Implement a basic login system where the user has three attempts to enter the correct password using a loop.
+attempts = 3
+password = "123456"
+print("Hello login here!!!")
+while attempts!=0:
+    enter = input("enter the password : ")
+    if(password==enter):
+        print("Login successfull")
+        break
+    else:
+        print("Invalid password:(")
+        attempts-=1
+if(attempts==0):
+    print("You have reached maximum limit of attempts!!!!")
